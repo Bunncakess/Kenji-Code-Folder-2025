@@ -1,4 +1,4 @@
-//ASSIC
+//ASCII Animal
 //Kenji Obena
 //September 16 2024'
 //Draw a creature/animal using ASCII art.
