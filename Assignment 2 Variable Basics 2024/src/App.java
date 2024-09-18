@@ -1,3 +1,8 @@
+//Kenji
+//Mr Fox
+//Sept 18, 2024
+//Chicken wings
+
 import java.util.Scanner;
 
 public class App {
@@ -14,15 +19,15 @@ public class App {
         }
 
         double result = chicken * num;
-        int amount = (int) Math.round(result);
+        int amount = (int) result;
         
-        if (amount > money){
-            System.out.println("You do not have the money");
-        }
-        else{
+        if (amount < money){
             System.out.println("You can buy that amount of chicken wings");
         }
+        else{
+            System.out.println("You do not have the money");
+        }
        
-
+        keyboard.close();
     }
 }
