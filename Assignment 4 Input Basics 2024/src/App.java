@@ -23,7 +23,8 @@ public class App {
         System.out.println("What 2nd number to add?");
         int second = keyboard.nextInt();
 
-        System.out.println(first + second);
+        System.out.println("Int: " + (first + second));
+        System.out.println("double: " + (double)(first + second));
         
         keyboard.close();
     }
