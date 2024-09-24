@@ -15,7 +15,7 @@ public class App {
         int num = keyboard.nextInt();
 
         System.out.println("This is its integer form: " + (int) num);
-        System.out.println("This is its integer form: " + (double) num);
+        System.out.println("This is its double form: " + (double) num);
 
 
         System.out.println("What 1st number to add?");
