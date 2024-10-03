@@ -1,3 +1,8 @@
+// Kenji
+// Mr Fox
+// 10/2/24
+// SumpUp
+
 public class SumUp {
 
     public void sum( int a, int b ){

@@ -1,3 +1,8 @@
+// Kenji
+// Mr Fox
+// 10/2/24
+// BigOrSmalls
+
 public class BigOrSmalls {
 
     public void check( int a, int b ){
