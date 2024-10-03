@@ -2,18 +2,15 @@ public class AreaOfTriangle {
 
     public AreaOfTriangle() {
     }
-    public void perimeter(int a, int b, int c){
+    public void perimeter(double a, double b, double c){
         System.out.println("The perimeter of the triangle is: " + (a + b + c));
     }
 
-    public void semiperimeter(int a, int b, int c){
-        int s = (a + b + c) / 2;
-        System.out.println("The semiperimeter of the triangle is: " + (s));
+    public void area(double a, double b, double c){
+        double s = (a + b + c) / 2;
+        double areaOfTriangle = Math.sqrt(s * ((s - a) * (s - b) * (s - c)));
+        System.out.println("The area of the triangle is: " + (double) areaOfTriangle);
     }
-
-    public void area(int a, int b, int c, int s){
-        double areaOfTriangle = Math.sqrt(s * (s - a) * (s - b) * (s - c));
-        System.out.println("The area of the triangle is: " + areaOfTriangle);
-    }
+    
 }
 
