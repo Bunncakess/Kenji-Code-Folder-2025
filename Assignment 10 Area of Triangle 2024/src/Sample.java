@@ -23,6 +23,10 @@ public class Sample {
             if (no == 2){
                 Go = 2;
             }
+            else{
+                System.out.println("die");
+                Go = 2;
+            }
         }
         keyboard.close();
         

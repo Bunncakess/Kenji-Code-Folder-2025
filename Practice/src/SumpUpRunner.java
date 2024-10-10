@@ -1,7 +1,7 @@
 import static java.lang.System.*;
 import java.util.ArrayList;
 
-public class App {
+public class SumpUpRunner {
     public static void main(String[] args) throws Exception {
         ArrayList<String> guns = new ArrayList<>();
         guns.add("ak47");
