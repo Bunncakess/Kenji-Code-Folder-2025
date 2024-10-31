@@ -30,7 +30,7 @@ public class Sample {
     }
 
     public void print(int iscool, int stop){
-
+        System.out.println("There are " + CoolnumberStop(stop) + " cool numbers within " + stop);
         if (isCoolNumber(iscool)){
             System.out.println("Thats a COOL NUMBER. FIND SOME MORE!!!");
             System.out.println("There are: " + CoolnumberStop(stop) + " COOL NUMBERS " + " within the range of " + stop);
