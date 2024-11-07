@@ -1,3 +1,7 @@
+//Kenji
+//Mr Fox
+//Comp 30
+//Random
 import java.util.Random;
 
 public class RandomNum {
