@@ -1,3 +1,7 @@
+//Kenji
+//Mr Fox
+//Comp 30
+//Random
 public class Sample {
 
 
