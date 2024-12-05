@@ -2,16 +2,15 @@ import java.util.Arrays;
 
 public class Sample {
 
-    private int numArray[], start, end, mode, gone;
+    private int numArray[], start, end, mode;
 
-    public void SetNums(int SelectedArray [], int pos1, int pos2, int num1, int num2){
+    public void SetNums(int SelectedArray [], int pos1, int pos2, int num1){
         numArray = SelectedArray;
         start = pos1;
         end = pos2;
         mode = num1;
-        gone = num2;
     }
-
+ 
     ///SUMMING DEM SUMS////
     public int SumOf(){
         int sum1 = 0;
@@ -36,16 +35,10 @@ public class Sample {
 		return count;
 	}
 
-    public int Remove(){
-        int removeindex = gone;
-
-        for (int i = 0; i < numArray.length -1;){
-            
-        }
-        return 0;
-    }
+    //////removing em and replacing new
 
     public void Print(){
+        System.out.println("/////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
         System.out.println("The sum between " + start + "-" + end + " is " + SumOf() + " in array " + Arrays.toString(numArray));
         System.out.println("# of " + mode + "s = " + ModeOf());
     }
