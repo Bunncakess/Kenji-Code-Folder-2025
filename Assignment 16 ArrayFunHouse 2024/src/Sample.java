@@ -1,3 +1,7 @@
+//Kenji
+//Mr Fox
+//12/13/2024
+//Arrayfunhouse
 import java.util.Arrays;
 
 public class Sample {
